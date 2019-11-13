@@ -1,0 +1,2 @@
+# cat=basic/enable/101; type=input; label=Tables allowed to use new behaviour:Either comma separated list or * to allow all tables
+tables = *

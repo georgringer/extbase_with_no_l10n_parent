@@ -1,0 +1,38 @@
+{
+	"name": "georgringer/extbase-records-with-no-l10n-parent",
+	"keywords": [
+		"TYPO3",
+		"extension",
+		"extbase",
+		"language handling"
+	],
+	"authors": [
+		{
+			"name": "Georg Ringer",
+			"role": "Developer",
+			"homepage": "https://ringer.it"
+		}
+	],
+	"type": "typo3-cms-extension",
+	"description": "Show records in extbase if those got a different language defined then -1 (all) or 0 (default) and no language parent",
+	"homepage": "https://ringer.it",
+	"license": [
+		"GPL-2.0-or-later"
+	],
+	"require": {
+		"typo3/cms-core": "^9 || ^10"
+	},
+	"autoload": {
+		"psr-4": {
+			"GeorgRinger\\ExtbaseRecordsWithNoL10nParent\\": "Classes"
+		}
+	},
+	"replace": {
+		"typo3-ter/extbase-records-with-no-l10n-parent": "self.version"
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "extbase_records_with_no_l10n_parent"
+		}
+	}
+}
