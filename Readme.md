@@ -24,4 +24,8 @@ Read more about it [docs.typo3.org](https://docs.typo3.org/c/typo3/cms-core/mast
 1. Install this extension: Use `composer require georgringer/extbase-records-with-no-l10n-parent` or install it via Extension Manager.
 2. Configure the extension in the Install Tool > Settings > Extension Configuration > extbase_records_with_no_l10n_parent: Set those tables which should use the changed behaviour. Either use `*` or a comma separated list like `tx_news_domain_model_news,your_extension_table`.
 
+## Sponsor
 
+Thanks to the sponsors:
+
+- Schweizer Alpen-Club SAC https://www.sac-cas.ch 
