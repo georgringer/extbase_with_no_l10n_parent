@@ -1,4 +1,4 @@
-# TYPO3 Extension `extbase_records_with_no_l10n_parent`
+# TYPO3 Extension `extbase_with_no_l10n_parent`
 
 This extension changes the behaviour of Extbase to show also records without a language parent.
 
@@ -22,7 +22,7 @@ Read more about it [docs.typo3.org](https://docs.typo3.org/c/typo3/cms-core/mast
 ## Usage
 
 1. Install this extension: Use `composer require georgringer/extbase-records-with-no-l10n-parent` or install it via Extension Manager.
-2. Configure the extension in the Install Tool > Settings > Extension Configuration > extbase_records_with_no_l10n_parent: Set those tables which should use the changed behaviour. Either use `*` or a comma separated list like `tx_news_domain_model_news,your_extension_table`.
+2. Configure the extension in the Install Tool > Settings > Extension Configuration > extbase_with_no_l10n_parent: Set those tables which should use the changed behaviour. Either use `*` or a comma separated list like `tx_news_domain_model_news,your_extension_table`.
 
 ## Sponsor
 

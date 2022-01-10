@@ -115,7 +115,7 @@ class XclassTypo3DbQueryParser extends Typo3DbQueryParser
     protected function handleTable(string $tableName): bool
     {
         try {
-            $settings = GeneralUtility::makeInstance(ExtensionConfigurationService::class)->get('extbase_records_with_no_l10n_parent');
+            $settings = GeneralUtility::makeInstance(ExtensionConfigurationService::class)->get('extbase_with_no_l10n_parent');
             if (is_array($settings) && isset($settings['tables'])) {
                 if ($settings['tables'] === '*') {
                     return true;

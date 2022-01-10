@@ -1,5 +1,5 @@
 {
-	"name": "georgringer/extbase-records-with-no-l10n-parent",
+	"name": "georgringer/extbase-with-no-l10n-parent",
 	"keywords": [
 		"TYPO3",
 		"extension",
@@ -28,11 +28,13 @@
 		}
 	},
 	"replace": {
-		"typo3-ter/extbase-records-with-no-l10n-parent": "self.version"
+		"typo3-ter/extbase-records-with-no-l10n-parent": "self.version",
+		"georgringer/extbase-records-with-no-l10n-parent": "self.version",
+		"typo3-ter/extbase-with-no-l10n-parent": "self.version"
 	},
 	"extra": {
 		"typo3/cms": {
-			"extension-key": "extbase_records_with_no_l10n_parent"
+			"extension-key": "extbase_with_no_l10n_parent"
 		}
 	}
 }
