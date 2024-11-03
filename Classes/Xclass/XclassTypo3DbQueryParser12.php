@@ -30,6 +30,10 @@ class XclassTypo3DbQueryParser12 extends Typo3DbQueryParser
             return '';
         }
 
+        if (!$this->handleTable($tableName)) {
+            return parent::getLanguageStatement($tableName, $tableAlias, $querySettings);
+        }
+
         // Select all entries for the current language
         // If any language is set -> get those entries which are not translated yet
         // They will be removed by \TYPO3\CMS\Core\Domain\Repository\PageRepository::getRecordOverlay if not matching overlay mode
