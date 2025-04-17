@@ -1,5 +1,9 @@
 # TYPO3 Extension `extbase_with_no_l10n_parent`
 
+!!!! This extension is obsolete since the change https://review.typo3.org/c/Packages/TYPO3.CMS/+/82087 which is available in TYPO3 12+ which fixed in the core!
+
+----
+
 This extension changes the behaviour of Extbase to show also records without a language parent.
 
 **Example**: Given are the following records
